@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+#img-logo{
+    transition: transform ease 0.5s;
+}
+
+#img-logo:hover{
+    transform: scale(1.1);
+}
+
+.navbar{
+    box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.3);
+}
+
+.navbar div a{
+    color: #000000;
+    padding: 5px 10px;
+    margin-left: 20px;
+    transition: transform ease-in-out 0.5s;
+}
+
+.navbar div a:hover{
+    transform: scale(1.1);
+    color: #ffffff;
+    border-radius: 28px;
+    background-color: #000000;
+}
+
+/* Main Berita */
+article{
+    background-color: #F5F5F5F5;
+    padding: 40px;
+    border-radius: 28px;
+}
+
+.main-img-news{
+    float: left;
+    margin-right: 20px;
+    background-color: #F5F5F5F5;
+}
+
+.news-paragraph{
+    text-indent: 30px;
+    text-align: justify;
+}
+
+/* Berita Lainnya */
+aside ul{
+    padding-left: 0px;
+}
+
+.more-news{
+    width: auto;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #F5F5F5F5;
+    border-radius: 28px;
+    background-image: url("../img/test-img.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.more-news a{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: font-size ease 0.5s;
+}
+
+.more-news a:hover{
+    font-size: 22px;
+}
+
+
+/* Foooter */
+footer{
+    margin-top: 140px;
+}
+
+footer a{
+    margin: 0px 20px 0px 0px;
+    color: #000000;
+}
